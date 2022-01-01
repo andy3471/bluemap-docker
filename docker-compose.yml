@@ -6,7 +6,6 @@ services:
     container_name: bluemap
     tty: true
     volumes:
-      - /bluemap:/bluemap
-      - /world:/world
+      - ./world:/bluemap/world
     ports:
       - 8100:8100
