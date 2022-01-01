@@ -6,4 +6,4 @@ then
 fi
 
 cd /bluemap
-java --jar ./bluemap.jar -ruw
+java --jar ./bluemap.jar -ruw 
