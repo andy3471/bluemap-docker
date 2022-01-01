@@ -1,0 +1,12 @@
+version: '3'
+services:
+  bluemap:
+    build: .
+    restart: unless-stopped
+    container_name: bluemap
+    tty: true
+    volumes:
+      - /bluemap:/bluemap
+      - /world:/world
+    ports:
+      - 8100:8100
